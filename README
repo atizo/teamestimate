@@ -1,0 +1,62 @@
+What is teamestimate?
+--------------------
+
+It is a simple script written in Ruby to determine the estimation time of a
+Redmine ticket using the whole team.
+
+
+
+How does it work?
+-----------------
+
+Every team member enters a concealed estimation in a random order. The
+calculated average (i.e. the team estimation) or a manually adapted value will
+then be saved to the 'Estimation time' field of the Redmine ticket with the
+given ID. The script also saves the individual estimations of the team members
+as a ticket note.
+
+
+
+How can I use it?
+-----------------
+
+You need to install the Ruby libraries activeresource and highline.
+
+Then use it like this:
+
+################################################################################
+$ ./teamestimate.rb
+anna: 
+john: 
+emily: 
+bob: 
+
+anna: 4.00
+john: 6.00
+emily: 3.50
+bob: 4.00
+---------------
+average: 4.38 (rounded: 5)
+
+Issue ID (return to skip): 979
+Estimated hours [5]: 
+
+Issue: #979 Fix input validation error
+Estimated hours: 5
+Correct? [Y/n]: 
+Issue #979 saved.
+
+emily: 
+john: 
+...
+################################################################################
+
+
+
+Am I allowed to use/modified it?
+--------------------------------
+
+teamestimate is free software, licensed under the terms of the GNU General
+Public License v2. See COPYING for more details.
+
+Copyright (c) 2011 Atizo AG. All rights reserved.
