@@ -35,7 +35,7 @@ team = [
 ]
 
 # Location of your Redmine site
-$redmine_url = 'https://redmine.atizo.org/'
+$redmine_url = 'https://redmine.example.org/'
 
 # API key (copy from 'My account', 'API access key')
 $redmine_api_key = '8809f980b2af1ab0f4eb2be29787aba8d0070759'
