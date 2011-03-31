@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # teamestimate - Independent team time estimation for Redmine
+# https://labs.atizo.com/software/#teamestimate
 #
 # Copyright (c) 2011 Atizo AG. All rights reserved.
 #

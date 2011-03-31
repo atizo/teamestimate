@@ -4,6 +4,7 @@ What is teamestimate?
 It is a simple script written in Ruby to determine the estimation time of a
 Redmine ticket using the whole team.
 
+https://labs.atizo.com/software/#teamestimate
 
 
 How does it work?
